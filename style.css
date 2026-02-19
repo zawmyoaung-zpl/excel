@@ -1,0 +1,123 @@
+  <style>
+        :root{}
+        body {
+            background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('tech.jpg'); 
+            backdrop-filter: blur(3px);
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            padding: 0px;
+            position: relative;
+            flex-grow: 1;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+      .Main {
+            margin:0px;
+            max-width: 1500px;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+          .content {
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+         .header {
+            padding: 15px;
+            text-align: center;
+            line-height:35px;
+        }
+        .header h1 { 
+          font-family: Times New Roman;
+          color: Greenyellow;
+          text-shadow: 0 0 10px Greenyellow;
+          margin:20px;
+          font-size: 20px;
+          border-bottom: 1px solid Greenyellow;
+          padding-bottom: 10px;
+        }
+        .header h2 {
+          border-top: 1px solid Greenyellow;
+          color: Cyan;
+          text-shadow: 0 0 10px cyan;
+          padding-top: 20px;
+          margin-top:25px;
+          font-size: 20px;
+          font-family:Times New Roman;
+          }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 110px 10px 1fr;
+            gap:20px;
+            margin-bottom: 30px;
+        }
+        .label {
+          font-size:1.1em;
+          font-weight: bold;
+          color:Gold;
+        }
+        .sep { color: Gold; font-weight: bold; }
+        .val { color: Gold; }
+
+        .join-box {
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 10px;
+        }
+       .link-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 25px;
+            background-color: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .link-btn:hover { background-color: #0077b5; transform: scale(1.05); }
+              
+  .grid2 img {
+            width: 110px;
+            height: auto;
+        }
+  .grid2 {
+            display: grid;
+            grid-template-columns: 100px 160px 1fr;
+            gap: 10px;
+            margin-top:50px;
+            margin-bottom: 10px;
+        }   
+      .mex{
+        margin:0px;
+        line-height: 55px;
+        color:Greenyellow;
+        font-size:2.5em;
+        font-family:Times New Roman;
+      }  
+        .footer {
+            font-size: 13px;
+            color: white;
+            line-height: 2;
+            margin:5px;
+            padding-top: 5px;
+            border-top: 1px solid Greenyellow;
+        }
+        .footer1{
+          padding:0px;
+          margin:30px auto;
+          position: relative;
+        }
+  </style>
