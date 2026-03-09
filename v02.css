@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pyidaungsu:wght@400;700&display=swap');
-
+@font-face {
+  font-family:'Algerian';
+  src:url('Algerian Regular.ttf')
+}
 :root {
     --primary-green: #adff2f;
     --accent-cyan: #00ffff;
@@ -38,30 +41,29 @@ body {
     margin-bottom: 30px;
 }
 h2{
-          font-size:1rem;
+          font-size:1em;
           border-bottom:1px dashed gold;
           padding:10px;
           margin-bottom: 10px;
-          color: cyan;
-          letter-spacing: 0.33rem;
-font-family:'Cinzel Decorative', cursive;
-
+          color: #40E0D0;
+          letter-spacing: 0.35rem;
           
 }
 .header h1 {
     color: gold;
-    font-size: 1.15rem;
-    letter-spacing: 1px;
+    font-size: 1.3rem;
+    letter-spacing: 0.12rem;
     border-bottom: 0px solid var(--primary-green);
     display: inline-block;
     padding-bottom: 0px;
-    font-family: 'Alegreya', serif;
+    font-family: Algerian;
 }
 
 .header h3 { 
     margin-top: 25px;
     font-size: 1.2rem;
     color: Greenyellow;
+    font-family: Times New Roman;
 }
 
 .content-wrapper {
@@ -83,12 +85,13 @@ font-family:'Cinzel Decorative', cursive;
 
 .module-container h3 {
     color: var(--gold);
-    font-family: 'Playfair Display', Sans-Serif;
+    font-variant: small-caps;
     letter-spacing: 3px;
     margin-bottom: 20px;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     border-bottom: 1px solid var(--gold);
     padding-bottom: 10px;
+    font-family: Times New Roman;
 }
 
 .module {
